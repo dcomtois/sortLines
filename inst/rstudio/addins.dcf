@@ -1,0 +1,4 @@
+Name: Sort selected lines
+Description: Sorts selected lines in RStudio's active editor window.
+Binding: sortLines
+Interactive: false
