@@ -41,7 +41,9 @@ Selecting those lines and go to Addins > Sort Selected Lines (A). You'll now hav
 100. And again
 ```
 
-The `gtools::mixedsort` function supports roman numbers sorting; if there is a need for it, it would be easy to add a this variation to the other two. 
+### Possible variations
+
+The `gtools::mixedsort` function supports roman numbers sorting; if there is a need for it, it would be easy to add this variation to the existing (A) and (D). 
 
 ## About the package
 For now, only the sortLines addin is included, but I might write other addins in the future.
