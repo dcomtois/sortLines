@@ -1,6 +1,6 @@
 # Addins for RStudio
 
-## sortLines
+## sortLines (Ascending) or (Descending)
 
 Sort selected lines in RStudio's editor with this addin.
 
@@ -32,7 +32,7 @@ Say you have the following lines in your editor, and want them sorted according 
 2. Still some text
 ```
 
-Selecting those lines and go to Addins > Sort selected lines. You'll now have:
+Selecting those lines and go to Addins > Sort Selected Lines (A). You'll now have:
 
 ```
 1. Some text
@@ -40,6 +40,8 @@ Selecting those lines and go to Addins > Sort selected lines. You'll now have:
 10. And again
 100. And again
 ```
+
+The `gtools::mixedsort` function supports roman numbers sorting; if there is a need for it, it would be easy to add a this variation to the other two. 
 
 ## About the package
 For now, only the sortLines addin is included, but I might write other addins in the future.

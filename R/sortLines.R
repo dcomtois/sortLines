@@ -3,10 +3,28 @@
 #' Call this function as an RStudio addin to sort selected lines in the active document.
 #'
 #' @export
-sortLines <- function() {
+sortLinesA <- function() {
   context <- rstudioapi::getActiveDocumentContext()
   selection <- rstudioapi::primary_selection(context)
-  sel_text <- mixedsort(strsplit(selection$text, "\r?\n", perl = TRUE)[[1]])
+  sel_text <- mixedsort(strsplit(selection$text, "\r?\n", perl = TRUE)[[1]],
+                        decreasing = FALSE,
+                        na.last = TRUE,
+                        blank.last = FALSE,
+                        numeric.type = "decimal",
+                        roman.case = "upper")
+  rstudioapi::insertText(location = selection$range, text = paste(sel_text, collapse = "\n"))
+}
+
+#' @export
+sortLinesD <- function() {
+  context <- rstudioapi::getActiveDocumentContext()
+  selection <- rstudioapi::primary_selection(context)
+  sel_text <- mixedsort(strsplit(selection$text, "\r?\n", perl = TRUE)[[1]],
+                        decreasing = TRUE,
+                        na.last = TRUE,
+                        blank.last = FALSE,
+                        numeric.type = "decimal",
+                        roman.case = "upper")
   rstudioapi::insertText(location = selection$range, text = paste(sel_text, collapse = "\n"))
 }
 

@@ -1,4 +1,10 @@
-Name: Sort selected lines
-Description: Sorts selected lines in RStudio's active editor window.
-Binding: sortLines
+Name: Sort Selected Lines (A)
+Description: Sorts selected lines (ascending order) in active editor window.
+Binding: sortLinesA
 Interactive: false
+
+Name: Sort Selected Lines (D)
+Description: Sorts selected lines (descending order) in active editor window.
+Binding: sortLinesD
+Interactive: false
+
