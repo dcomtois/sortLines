@@ -19,4 +19,4 @@ library(devtools)
 install_github('dcomtois/RStudioAddinsDC')
 ```
 ## About the package
-For now, only the sortLines addin is included, but I might write other addins in the future. That's why I gave it a generic name. 
+For now, only the sortLines addin is included, but I might write other addins in the future.
