@@ -1,7 +1,7 @@
-Package: RStudioAddInsDC
+Package: sortLines
 Type: Package
 Title: RStudioAddIns - sortLines
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(person("Dominic", "Comtois", role = c("cre","aut"),
                      email = "dcomtois@statconseil.com"),
               person("Gregory", "Warnes", "R.", role = "aut", comment = "Author of the sorting algorithm"))
@@ -13,4 +13,5 @@ License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Imports: rstudioapi
-URL: https://github.com/dcomtois/RStudioAddInsDC
+URL: https://github.com/dcomtois/sortLines
+RoxygenNote: 6.0.1

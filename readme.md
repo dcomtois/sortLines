@@ -16,7 +16,7 @@ install.packages("devtools")
 To install, use `install_github`:
 ```r
 library(devtools)
-install_github('dcomtois/RStudioAddinsDC')
+install_github('dcomtois/sortLines')
 ```
 
 That's it. RStudio will recognize it as an addin and it will show up in the Addins menu.
