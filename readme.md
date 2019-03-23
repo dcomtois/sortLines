@@ -60,6 +60,9 @@ Selecting those lines and go to Addins > Sort Selected Lines (A). You'll now hav
 100. And again
 ```
 
+### Animated demo
+![](https://github.com/dcomtois/sortLines/blob/master/inst/media/sortLinesDemo.gif)
+
 ### Possible variations
 
 The `gtools::mixedsort` function supports roman numbers sorting; if there is a need for it, it would be easy to add this variation to the existing (A) and (D). 
