@@ -8,10 +8,10 @@ Credits to Gregory R. Warnes for the sort algorithm from [gtools](https://cran.r
 
 ## How to install
 
-#### Recommended Method : addinslist
+#### Recommended Method : addinslist  
 
 If you don't have [addinslist](https://github.com/daattali/addinslist) installed, I recommend you do install it, 
-as it gives access to a multitude of useful addins through a simple GUI interface.
+as it gives access to a multitude of useful addins through a simple GUI.
 
 ```r
 install.packages('addinslist')
@@ -19,9 +19,10 @@ install.packages('addinslist')
 
 Then, refer to the [addinslist](https://github.com/daattali/addinslist) documentation to proceed and install `sortLines`.
 
-#### Alternative Method : devtools or remotes
+#### Alternative Method : devtools or remotes  
 
 **Using `devtools`**
+
 If you have `devtools` installed, use
 
 ```r
