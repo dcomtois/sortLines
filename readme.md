@@ -1,4 +1,5 @@
-# sortLines (Ascending) or (Descending) -- Addin for RStudio
+## Addin for RStudio:
+# sortLines (Ascending) or (Descending)
 
 Sort selected lines in RStudio's editor with this addin.
 
