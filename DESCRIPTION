@@ -2,13 +2,15 @@ Package: sortLines
 Type: Package
 Title: RStudioAddIns - sortLines
 Version: 0.1.1
-Authors@R: c(person("Dominic", "Comtois", role = c("cre","aut"),
-                     email = "dcomtois@statconseil.com"),
-              person("Gregory", "Warnes", "R.", role = "aut", comment = "Author of the sorting algorithm"))
+Authors@R: c(person(given= "Dominic", family = "Comtois", 
+                    email = "dominic.comtois@gmail.com",
+                    role = c("cre","aut")),
+             person(given = "Gregory", family = "Warnes", middle = "R.",
+                    role = "aut", comment = "Author of the sorting algorithm"))
 Author: Dominic Comtois [aut],
   Gregory R. Warnes [aut]
 Maintainer: Dominic Comtois <dominic.comtois@gmail.com>
-Description: Sorts selected line in the active editor.
+Description: Sorts selected lines in the active editor.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
