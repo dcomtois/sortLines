@@ -1,6 +1,5 @@
-# Addins for RStudio
-
-## sortLines (Ascending) or (Descending)
+## Addin for RStudio:
+# sortLines (Ascending) or (Descending)
 
 Sort selected lines in RStudio's editor with this addin.
 
@@ -8,15 +7,35 @@ Credits to Gregory R. Warnes for the sort algorithm from [gtools](https://cran.r
 
 ## How to install
 
-First, install `devtools` if you don't have it yet.
+#### Recommended Method : addinslist  
+
+If you don't have [addinslist](https://github.com/daattali/addinslist) installed, I recommend you do install it, 
+as it gives access to a multitude of useful addins through a simple GUI.
+
 ```r
-install.packages("devtools")
+install.packages('addinslist')
 ```
 
-To install, use `install_github`:
+Then, refer to the [addinslist](https://github.com/daattali/addinslist) documentation to proceed and install `sortLines`.
+
+#### Alternative Method : devtools or remotes  
+
+**Using `devtools`**
+
+If you have `devtools` installed, use
+
 ```r
-library(devtools)
-install_github('dcomtois/sortLines')
+devtools::install_github('dcomtois/sortLines')
+```
+
+**Using `remotes`**
+
+If you don't have nor need the functionalities of `devtools`, install the lightweight
+[remotes](https://github.com/r-lib/remotes) and use it to install `sortLines`:
+
+```r
+install.packages("remotes")
+remotes::install_github("dcomtois/sortLines")
 ```
 
 That's it. RStudio will recognize it as an addin and it will show up in the Addins menu.
@@ -41,9 +60,10 @@ Selecting those lines and go to Addins > Sort Selected Lines (A). You'll now hav
 100. And again
 ```
 
+### Animated demo
+![](https://github.com/dcomtois/sortLines/blob/master/inst/media/sortLinesDemo.gif)
+
 ### Possible variations
 
 The `gtools::mixedsort` function supports roman numbers sorting; if there is a need for it, it would be easy to add this variation to the existing (A) and (D). 
 
-## About the package
-For now, only the sortLines addin is included, but I might write other addins in the future.
